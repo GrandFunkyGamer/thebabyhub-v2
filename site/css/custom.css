@@ -1,0 +1,123 @@
+@media (min-width: 992px) {
+.navbar-just {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+    }
+}
+
+nav a {
+  font-family: 'Roboto Mono', monospace;
+  color: #15a7e0 !important;
+}
+
+.navbar.navbar-light .breadcrumb 
+.nav-item.active > .nav-link, 
+.navbar.navbar-light .navbar-nav
+.nav-item.active > .nav-link {
+  background-color: #15a7e0;
+  color: #fff;
+}
+
+
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+    color: #FFFFFF !important ;
+    background-color: #15a7e0;
+}
+
+.navbar .dropdown-menu > a:hover,
+.navbar .dropdown-menu > a:focus {
+    color: #ffffff;
+    background-color:#15a7e0;
+}
+
+a.dropdown-item:hover {
+  color: #fff !important;
+  background-color: #15a7e0 !important;
+}
+
+.breadcrumb-color {
+	background-color: rgba(246,245,245,0);
+}
+
+.breadcrumb a {
+	color: #15a7e0;
+}
+
+
+/****************************/
+/**********PRODUCTS**********/
+/****************************/
+
+.card {
+	margin-bottom: 32px;
+}
+
+.card-title {
+	margin-bottom: 0px;
+}
+
+.card-body {
+	padding: 5px 15px;
+}
+
+.view {
+	height: 200px;
+}
+
+.section-title {
+	padding-bottom: 50px;
+	text-align: center;
+	color: #3f51b5;
+	/*font-family: 'Roboto Mono', monospace;*/
+}
+
+
+/****************************/
+/**********LOGIN**********/
+/****************************/
+
+.login-title { 
+	padding-bottom: 30px;
+	text-align: center;
+	color: #fff;
+	padding-top: 20px;
+ }
+
+ .login-left {
+ 	background-color: #72C7FA;
+ }
+
+ .login-right {
+ 	background-color: #1868a7;
+ }
+
+ .login-btn {
+ 	border-radius : 1px !important;
+ 	background-color: rgba(246,245,245,0) !important;
+ 	border: 1px solid #fff;
+}
+
+.login-form {
+	padding: 2rem 5rem;
+}
+
+.control-form {
+	padding: 7px 0px;
+	background: rgba(246,245,245,0) !important;
+}
+
+
+.pass-reset-title {
+	padding-bottom: 30px;
+	text-align: center;
+	/*color: #fff;*/
+	padding-top: 20px;
+}
+
+.reset-btn {
+ 	border-radius : 1px !important;
+ 	background-color: #72C7FA !important;
+}
